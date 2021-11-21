@@ -211,7 +211,7 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/hero-min.jpg);
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: contain;
+  background-size: cover;
   margin-right: auto;
   margin-left: auto;
   
@@ -334,7 +334,7 @@ img {
 /* --------------------------Team-------------------------- */
 
 .team {
-  height: 650px;
+  
   background-color: var(--button-color);
 }
 
@@ -431,7 +431,7 @@ color: var(--main-title-color);
 .client-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.17px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-title-color);
@@ -466,7 +466,7 @@ margin-bottom: 50px;
 }
 
 .clients-link:hover,
-.clients-link :focus {
+.clients-link:focus {
   border-color: var(--accent-color);
   color: #2196f3;
 } 
@@ -549,7 +549,7 @@ margin-right: 70px;
 .join-title {
 font-weight: 700;
 font-size: 14px;
-text-align: center;
+
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
